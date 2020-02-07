@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-/* change*/
 
 class Square extends React.Component {
     render() {
@@ -12,7 +11,7 @@ class Square extends React.Component {
       );
     }
   }
-  
+
   class Board extends React.Component {
     renderSquare(i) {
       return <Square value = {i}/>;
