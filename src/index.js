@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 /*laptop comment*/
+/*test*/
 
 class Square extends React.Component {
   render() {
